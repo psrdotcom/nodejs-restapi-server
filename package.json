@@ -1,0 +1,32 @@
+{
+  "name": "nodejsrestapiserver",
+  "version": "1.0.0",
+  "description": "Sample REST API Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psrdotcom/nodejsrestapiserver.git"
+  },
+  "keywords": [
+    "sample",
+    "rest",
+    "api",
+    "server",
+    "node",
+    "npm"
+  ],
+  "author": "Suresh Raju Pilli <sureshraju.pilli@gmail.com> (https://psrdotcom.blogspot.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psrdotcom/nodejsrestapiserver/issues"
+  },
+  "homepage": "https://github.com/psrdotcom/nodejsrestapiserver#readme"
+}

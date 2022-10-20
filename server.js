@@ -1,13 +1,11 @@
-let express = require('express');
-let app = express();
-
-app.get('/', function(req, res){
+const express = require('express');
+const app = express();
+const port = 9090
+    
+app.get('/', (req, res) => {
     res.send('Hello PSR');
 })
 
-let server = app.listen(9090, function(){
-    const host = server.address().address
-    const port = server.address().port
-
-    console.log("Simple server listening at http://%s:%s", host, port)
+app.listen(port, () => {
+    console.log("Simple server listening at http://localhost:%s", port)
 })
